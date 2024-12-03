@@ -5,6 +5,7 @@
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(paginas.NewPage1), typeof(paginas.NewPage1));
         }
     }
 }

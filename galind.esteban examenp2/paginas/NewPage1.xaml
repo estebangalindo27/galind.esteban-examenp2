@@ -1,29 +1,29 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="galind.esteban examenp2.Views.Paginas"
+             x:Class="galind.esteban_examenp2.Views.paginas.NewPage1"
              Title="Recarga telefónica">
     <ContentPage.Content>
         <StackLayout Padding="20" Spacing="20">
             <Label Text="Ingrese el número de teléfono:"
-                   x:Name="galind.e_label1"
+                   x:Name="egalindo_label1"
                    FontSize="Medium" />
-            <Entry x:Name="galinde_entryPhoneNumber"
+            <Entry x:Name="egalindo_entryPhoneNumber"
                    Keyboard="Telephone" />
 
             <Label Text="Ingrese el nombre de quien realiza la recarga:"
-                   x:Name="galinde_label2"
+                   x:Name="egalindo_label2"
                    FontSize="Medium" />
-            <Entry x:Name="galinde_entryName" />
+            <Entry x:Name="egalindo_entryName" />
 
             <Label Text="La última recarga realizada fue:"
-                   x:Name="galind.e_label3"
+                   x:Name="egalindo_label3"
                    FontSize="Medium" />
-            <Label x:Name="galinde_labelLastRecharge"
+            <Label x:Name="egalindo_labelLastRecharge"
                    FontSize="Small"
                    Text="Nombre: XXXXXXXX\nNúmero: XXXXXXXX" />
 
             <Button Text="Recargar"
-                    x:Name="galinde_buttonRecharge"
+                    x:Name="egalindo_buttonRecharge"
                     BackgroundColor="Purple"
                     TextColor="White"
                     Clicked="OnRechargeClicked" />

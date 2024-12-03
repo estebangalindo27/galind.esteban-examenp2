@@ -1,13 +1,12 @@
-namespace galind.esteban_examenp2.paginas;
 using System;
 using System.IO;
 using Microsoft.Maui.Controls;
 
-namespace galind.esteban examenp2.Views
+namespace galind.esteban_examenp2.paginas
 {
     public partial class Pagina1 : ContentPage
     {
-        private const string FileName = "EstebanGalindo.txt";
+        private const string FileName = "MateoPillajo.txt";
 
         public Pagina1()
         {
@@ -54,3 +53,4 @@ namespace galind.esteban examenp2.Views
         }
     }
 }
+tiene menú contextual
